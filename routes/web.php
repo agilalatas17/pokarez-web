@@ -15,4 +15,4 @@ use Inertia\Inertia;
 |
 */
 
-Route::get('/users', [UserController::class, 'show'])->name('users.index');
+Route::get('/', [UserController::class, 'show']);

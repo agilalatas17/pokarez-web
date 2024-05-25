@@ -7,7 +7,7 @@ use Inertia\Inertia;
 
 class UserController extends Controller {
     public function show(){
-        return Inertia::render('User/Show', [
+        return Inertia::render('beranda/index', [
           'user' => 'OKOKOKOKOKOKOKOKOKOk'
         ]);
     }
